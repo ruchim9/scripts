@@ -1,0 +1,10 @@
+#!/bin/bash
+#shebangstatement
+echo '=====' >> `date +%Y-%m-%d`-networking
+#echo prints lines for formatting
+date >> `date +%Y-%m-%d`-networking
+echo '=====' >> `date +%Y-%m-%d`-networking
+ifconfig -a >> `date +%Y-%m-%d`-networking
+echo '-----' >> `date +%Y-%m-%d`-networking
+netstat -peanut >> `date +%Y-%m-%d`-networking
+cat`date +%Y-%m-%d`-networking
